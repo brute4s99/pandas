@@ -7498,7 +7498,8 @@ class DataFrame(NDFrame):
 
         Examples
         --------
-        >>> df = pd.DataFrame(np.array([[1, 1], [2, 10], [3, 100], [4, 100]]), \
+        >>> df = pd.DataFrame(np.array([[1, 1], [2, 10], \
+                                        [3, 100], [4, 100]]), \
                                         columns=['a', 'b'])
         >>> df.quantile(.1)
         a    1.3
